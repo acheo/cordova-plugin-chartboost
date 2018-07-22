@@ -1,7 +1,7 @@
 {
   "name": "cordova-plugin-chartboost",
   "version": "1.0.0",
-  "description": "",
+  "description": "plugman create --name CordovaPluginChartboost --plugin_id cordova-plugin-chartboost --plugin_version 1.0.0",
   "cordova": {
     "id": "cordova-plugin-chartboost",
     "platforms": [

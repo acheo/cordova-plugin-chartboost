@@ -1,15 +1,15 @@
-/********* cordova-plugin-chartboost.m Cordova Plugin Implementation *******/
+/********* CordovaPluginChartboost.m Cordova Plugin Implementation *******/
 
 #import <Cordova/CDV.h>
 
-@interface cordova-plugin-chartboost : CDVPlugin {
+@interface CordovaPluginChartboost : CDVPlugin {
   // Member variables go here.
 }
 
 - (void)coolMethod:(CDVInvokedUrlCommand*)command;
 @end
 
-@implementation cordova-plugin-chartboost
+@implementation CordovaPluginChartboost
 
 - (void)coolMethod:(CDVInvokedUrlCommand*)command
 {

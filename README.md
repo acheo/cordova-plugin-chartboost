@@ -1,8 +1,8 @@
 # cordova-plugin-chartboost
 
-plugman create --name cordova-plugin-chartboost --plugin_id cordova-plugin-chartboost --plugin_version 1.0.0
+plugman create --name CordovaPluginChartboost --plugin_id cordova-plugin-chartboost --plugin_version 1.0.0
 
-cd cordova-plugin-chartboost
+cd CordovaPluginChartboost
 
 plugman platform add --platform_name ios
 
