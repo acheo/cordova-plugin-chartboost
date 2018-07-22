@@ -16,6 +16,9 @@
         <source-file src="src/ios/CordovaPluginChartboost.m" />
     </platform>
     <platform name="android">
+        <source-file src="src/android/chartboost.jar" target-dir="libs" />
+    </platform>
+    <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
         <feature name="CordovaPluginChartboost">
             <param name="android-package" value="com.unitedcommand.cordova.plugin.chartboost.CordovaPluginChartboost" />
@@ -23,6 +26,5 @@
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
         <source-file src="src/android/CordovaPluginChartboost.java" target-dir="src/com/unitedcommand/cordova/plugin/chartboost/CordovaPluginChartboost" />
-        <source-file src="src/android/chartboost.jar" target-dir="libs" />
     </platform>
 </plugin>
