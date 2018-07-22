@@ -23,5 +23,6 @@
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
         <source-file src="src/android/CordovaPluginChartboost.java" target-dir="src/com/unitedcommand/cordova/plugin/chartboost/CordovaPluginChartboost" />
+        <source-file src="src/android/chartboost.jar" target-dir="libs" />
     </platform>
 </plugin>
