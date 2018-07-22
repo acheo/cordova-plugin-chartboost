@@ -1,9 +1,9 @@
 {
-  "name": "com.unitedcommand.cordova.plugin.chartboost",
+  "name": "cordova-plugin-chartboost",
   "version": "1.0.0",
-  "description": "plugman create --name CordovaPluginChartboost --plugin_id com.unitedcommand.cordova.plugin.chartboost --plugin_version 1.0.0",
+  "description": "Chartboost SDK plugin for Cordova",
   "cordova": {
-    "id": "com.unitedcommand.cordova.plugin.chartboost",
+    "id": "cordova-plugin-chartboost",
     "platforms": [
       "ios",
       "android"

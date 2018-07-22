@@ -9,3 +9,8 @@ plugman platform add --platform_name ios
 plugman platform add --platform_name android
 
 plugman createpackagejson .
+
+
+# install
+
+cordova plugin add https://github.com/acheo/cordova-plugin-chartboost.git
