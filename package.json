@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-chartboost",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-chartboost",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acheo/cordova-plugin-chartboost.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acheo/cordova-plugin-chartboost/issues"
+  },
+  "homepage": "https://github.com/acheo/cordova-plugin-chartboost#readme"
+}
