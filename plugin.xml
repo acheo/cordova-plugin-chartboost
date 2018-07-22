@@ -17,11 +17,27 @@
     </platform>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <activity android:name="com.chartboost.sdk.CBImpressionActivity"
+               android:excludeFromRecents="true"
+               android:hardwareAccelerated="true"
+               android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+               android:configChanges="keyboardHidden|orientation|screenSize" />
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+            <uses-permission android:name="android.permission.INTERNET" />
+            <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        </config-file>
         <feature name="CordovaPluginChartboost">
             <param name="android-package" value="com.unitedcommand.cordova.plugin.chartboost.CordovaPluginChartboost" />
         </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
         <source-file src="src/android/CordovaPluginChartboost.java" target-dir="src/com/unitedcommand/cordova/plugin/chartboost/CordovaPluginChartboost" />
+        <source-file src="src/android/chartboost.jar" target-dir="libs" />
+        <framework src="com.google.android.gms:play-services-ads:8.4.0" />
     </platform>
 </plugin>
