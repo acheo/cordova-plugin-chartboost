@@ -1,6 +1,6 @@
 # cordova-plugin-chartboost
 
-plugman create --name CordovaPluginChartboost --plugin_id cordova-plugin-chartboost --plugin_version 1.0.0
+plugman create --name CordovaPluginChartboost --plugin_id com.unitedcommand.cordova.plugin.chartboost --plugin_version 1.0.0
 
 cd CordovaPluginChartboost
 

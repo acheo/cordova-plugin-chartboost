@@ -1,4 +1,4 @@
-package cordova-plugin-chartboost;
+package com.unitedcommand.cordova.plugin.chartboost;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
