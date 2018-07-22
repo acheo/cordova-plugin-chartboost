@@ -16,7 +16,7 @@
         <source-file src="src/ios/CordovaPluginChartboost.m" />
     </platform>
     <platform name="android">
-        <source-file src="src/android/chartboost.jar" target-dir="libs" />
+        <lib-file src="src/android/chartboost.jar"/>
     </platform>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
