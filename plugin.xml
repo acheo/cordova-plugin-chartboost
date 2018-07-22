@@ -17,7 +17,6 @@
     </platform>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
-
         <feature name="CordovaPluginChartboost">
             <param name="android-package" value="com.unitedcommand.cordova.plugin.chartboost.CordovaPluginChartboost" />
         </feature>
